@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex; 
+    height: 30px;
+    justify-content: space-between;
+    align-items: center; 
+    background: #2EB086;
+    padding: 10px;
+}
+
+body {
+    height: 100vh;
+}
+
+.logo-txt {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn {
+    background: #313552;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 20px 30px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+article {
+    width: 300px;
+    margin: 20px 30px;
+
+}
+
+.card-img {
+    width: 300px;
+    height: auto;
+}
+
+.article-img {
+    width: 300px;
+    height: auto;
+}
+
+.article {
+    padding: 20px;
+}
+
+.article-img {
+    width: 300px;
+    float: left;
+    padding: 0 20px;
+}
+
+.article-txt {
+    display: inline;
+    padding: 40px 0;
+}
+
+input {
+    margin: 5px 20px;
+    padding: 5px;
+}
+
+textarea { 
+    margin: 5px 20px;
+    padding: 5px;
+}
+
+.contact-btn {
+    display: block;
+    background: #2EB086;
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #2EB086;
+    height: 50px;
+}
+
+.footer-txt {
+   text-align: center;
+   vertical-align: middle;
+   color: #fff;
+   padding: 5px 0;
+   font-size: 0.75rem;
+}
