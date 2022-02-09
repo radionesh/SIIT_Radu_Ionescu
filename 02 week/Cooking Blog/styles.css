@@ -1,13 +1,23 @@
+
+html, body  {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    min-height: 100vh;
 }
 
 a {
     text-decoration: none;
 }
 
+main {
+    flex: 1;
+}
 
 header {
     display: flex; 
@@ -16,10 +26,6 @@ header {
     align-items: center; 
     background: #2EB086;
     padding: 10px;
-}
-
-body {
-    height: 100vh;
 }
 
 .logo-txt {
@@ -58,12 +64,7 @@ article {
     height: auto;
 }
 
-.article-img {
-    width: 300px;
-    height: auto;
-}
-
-.article {
+.article-page {
     padding: 20px;
 }
 
