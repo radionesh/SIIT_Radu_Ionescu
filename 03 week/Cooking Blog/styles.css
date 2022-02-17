@@ -1,0 +1,397 @@
+
+html, body  {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    display: flex; 
+    height: 30px;
+    justify-content: space-between;
+    align-items: center; 
+    background: #e19e1e;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 0px 24px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.logo-txt {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn {
+    background: #964613;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 20px 30px;
+    color: #313552;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+article p {
+    margin-top: 0;
+}
+
+.card-img {
+    width: 300px;
+    height: auto;
+}
+
+.article-page {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.article-img {
+    width: 500px;
+    padding: 0 20px;
+}
+
+article h3 {
+    color: #313552;
+}
+
+.article-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.article-txt h2 {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #9daaa2;
+    padding: 5px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.ingredients ul {
+    list-style: square;
+}
+
+.prep-time p {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.time {
+    color: white;
+    background-color: #b89694;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.extra-recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.extra-heading {
+    padding: 0 20px;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retete-sim {
+    display: flex;
+}
+
+.recip {
+    width: 300px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.recip-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    padding: 15px 0 5px;
+}
+
+input[type="text"], textarea {
+    background-color  : rgb(245, 245, 245); 
+    margin: 0;
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+  }
+
+input {
+    width: 25vh;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+.contact-btn {
+    display: block;
+    background: #2EB086;
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #e19e1e;
+    height: 50px;
+}
+
+.footer-txt {
+   text-align: center;
+   vertical-align: middle;
+   color: #fff;
+   padding: 5px 0;
+   font-size: 0.75rem;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+.gdpr-txt > p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.gdpr-txt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow-up {
+    width: 60px;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 1;
+}
+
+/* media queries for mobile responsive */
+
+@media (max-width: 760px) {
+
+    .logo-txt {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    article {
+        margin: 0;
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .article-page {
+        justify-content: flex-start;
+        margin: 0;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .article-image {
+        width: 100%;
+    }
+
+    .article-img {
+        padding: 0;
+        width: 100%;
+    }
+
+    .ingredients {
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .recip {
+        justify-content: center;
+        width: auto;
+        flex-basis: 39%;
+        margin: 20px 10px;
+        padding: 10px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 5px;
+    }
+
+    .carousel {
+        justify-content: center;
+    }
+
+    .btn {
+        margin-left: 5px;
+    }
+
+    input {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .arrow-up {
+        bottom: 60px;
+        right: 30px;
+        z-index: 1;
+    }
+}
+
+/* media queries for tablet responsive */
+
+@media (min-width: 760px) and (max-width: 1180px) {
+
+    .article-page .extra-recipe {
+        align-items: center;
+    }
+
+    section {
+        justify-content: center; 
+    }
+
+     article {
+        margin: 0;
+        width: 400px;
+        padding: 10px;
+    }
+
+    .card-img {
+        width: 400px;
+    }
+
+    .article-page {
+        justify-content: center;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .recip-description {
+        align-items: center;
+    }
+
+    .recip {
+        justify-content: center;
+        width: auto;
+        flex-basis: 39%;
+        margin: 20px 10px;
+        padding: 10px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 5px;
+    }
+
+    .extra-heading {
+        text-align: center;
+    }
+
+    .carousel {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .arrow-up {
+        bottom: 30px;
+        right: 30px;
+        z-index: 1;
+    }
+
+}
