@@ -18,7 +18,7 @@ input {
 .btnContainer {
     display: flex;
     justify-content: center;
-gap: 5px;
+    gap: 5px;
 }
 
 .buttons {
@@ -42,8 +42,8 @@ gap: 5px;
 }
 
 #result {
-margin: 0 auto;
-font-size: 18px;
-font-weight: bolder;
-text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
 }
