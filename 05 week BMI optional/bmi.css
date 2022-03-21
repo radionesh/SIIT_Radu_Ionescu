@@ -1,0 +1,49 @@
+body, html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#resetBtn {
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+}
+
+#resetBtn:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+#result {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
